@@ -3,6 +3,8 @@ The c++ libraries for QP.
 
 # Eigen Installation
 
+official repository: 
+
 ```
 sudo apt-get install libeigen3-dev
 ```
@@ -27,7 +29,7 @@ then use
 
 # OSQP Installation
 
-Official repository https://github.com/osqp/osqp
+official repository: https://github.com/osqp/osqp
 
 ```
 git clone https://github.com/osqp/osqp
