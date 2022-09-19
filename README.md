@@ -55,7 +55,7 @@ sudo make install
 source ~/.bashrc
 ```
 
-Then modify the head files in `/usr/local/include/OsqpEigen`, make sure the osqp.h can be found. Modifing the file `Constraints.hpp`, `Data.hpp`, `Settings.hpp`, `Solver.hpp`, `Solver.tpp`, `SparseMatrixHelper.hpp`, like
+Then modify the head files in `/usr/local/include/OsqpEigen`, make sure the osqp.h can be found. Modifing the file `Constraints.hpp`, `Data.hpp`, `Settings.hpp`, `Solver.hpp`, `Solver.tpp`, `SparseMatrixHelper.hpp`.
 
 ```
 #include <usr/local/include/osqp.h>
