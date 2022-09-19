@@ -9,7 +9,7 @@ official documents: https://eigen.tuxfamily.org/dox-3.3/group__TutorialMatrixAri
 sudo apt-get install libeigen3-dev
 ```
 
-The default path is: /usr/include/eigen3. You should use
+The default path is: */usr/include/eigen3*. You should use
 
 ```
 #include <eigen3/Eigen/Dense>
@@ -55,4 +55,4 @@ sudo make install
 source ~/.bashrc
 ```
 
-Then modify the head files in /usr/local/include/OsqpEigen, make sure the osqp.h can be found.
+Then modify the head files in */usr/local/include/OsqpEigen*, make sure the osqp.h can be found. Modifing the file Constraints.hpp, Data.hpp, Settings.hpp, Solver.hpp, Solver.tpp, SparseMatrixHelper.hpp
