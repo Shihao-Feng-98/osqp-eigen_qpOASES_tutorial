@@ -47,10 +47,12 @@ official repository: https://github.com/robotology/osqp-eigen
 
 ```
 git clone https://github.com/robotology/osqp-eigen
-cd osqp
+cd osqp-eigen
 mkdir build
 cmake ..
 cmake .. -DCMAKE_INSTALL_PREFIT=usr/local/osqp-eigen
 sudo make install
 source ~/.bashrc
 ```
+
+Then modify the head files in /usr/local/include/OsqpEigen, make sure the osqp.h can be found.
