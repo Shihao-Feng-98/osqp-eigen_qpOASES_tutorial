@@ -62,3 +62,17 @@ Then modify the head files in `/usr/local/include/OsqpEigen`, make sure the osqp
 #include <usr/local/include/auxil.h>
 #include <usr/local/include/scaling.h>
 ```
+
+# qpOASES Installation
+
+official repository: https://github.com/coin-or/qpOASES
+
+```
+git clone https://github.com/coin-or/qpOASES
+cd qpOASES
+mkdir build
+cmake ..
+sudo make 
+sudo make install
+source ~/.bashrc
+```
