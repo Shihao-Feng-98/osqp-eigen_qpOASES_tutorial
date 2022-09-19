@@ -32,7 +32,7 @@ then use
 official repository: https://github.com/osqp/osqp
 
 ```
-git clone [https://github.com/osqp/osqp](https://github.com/osqp/osqp)
+git clone https://github.com/osqp/osqp
 cd osqp
 mkdir build
 cmake ..
@@ -46,7 +46,7 @@ source ~/.bashrc
 official repository: https://github.com/robotology/osqp-eigen
 
 ```
-git clone [https://github.com/osqp/osqp](https://github.com/robotology/osqp-eigen)
+git clone https://github.com/robotology/osqp-eigen
 cd osqp
 mkdir build
 cmake ..
