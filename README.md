@@ -24,3 +24,16 @@ then use
 ```
 #include <Eigen/Dense>
 ```
+
+# OSQP Installation
+
+```
+git clone https://github.com/osqp/osqp
+cd osqp
+mkdir build
+cmake ..
+cmake .. -DCMAKE_INSTALL_PREFIT=usr/local/osqp
+sudo make install
+source ~/.bashrc
+```
+
