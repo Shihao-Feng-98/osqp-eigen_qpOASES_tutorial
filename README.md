@@ -3,7 +3,7 @@ The c++ libraries for QP.
 
 # Eigen Installation
 
-official repository: 
+official documents: https://eigen.tuxfamily.org/dox-3.3/group__TutorialMatrixArithmetic.html
 
 ```
 sudo apt-get install libeigen3-dev
