@@ -27,6 +27,8 @@ then use
 
 # OSQP Installation
 
+Official repository https://github.com/osqp/osqp
+
 ```
 git clone https://github.com/osqp/osqp
 cd osqp
