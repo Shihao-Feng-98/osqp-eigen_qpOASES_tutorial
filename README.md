@@ -32,7 +32,7 @@ then use
 official repository: https://github.com/osqp/osqp
 
 ```
-git clone https://github.com/osqp/osqp
+git clone [https://github.com/osqp/osqp](https://github.com/osqp/osqp)
 cd osqp
 mkdir build
 cmake ..
@@ -41,3 +41,16 @@ sudo make install
 source ~/.bashrc
 ```
 
+# Osqp-eigen Installation
+
+official repository: https://github.com/robotology/osqp-eigen
+
+```
+git clone [https://github.com/osqp/osqp](https://github.com/robotology/osqp-eigen)
+cd osqp
+mkdir build
+cmake ..
+cmake .. -DCMAKE_INSTALL_PREFIT=usr/local/osqp-eigen
+sudo make install
+source ~/.bashrc
+```
