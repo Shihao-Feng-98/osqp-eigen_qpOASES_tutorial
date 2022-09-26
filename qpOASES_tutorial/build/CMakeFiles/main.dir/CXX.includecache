@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/feng_shihao/fsh_file/osqp-eigen_qpOASES_tutorial/qpOASES_tutorial/main.cpp
+qpOASES.hpp
+-
+

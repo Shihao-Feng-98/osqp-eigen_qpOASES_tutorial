@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -std=c++14 -Wall -g   CMakeFiles/main.dir/main.cpp.o  -o main  -Wl,-rpath,/usr/local/lib /usr/local/lib/libOsqpEigen.so.0.7.0 /usr/local/lib/libosqp.so 
