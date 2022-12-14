@@ -49,7 +49,7 @@ official repository: https://github.com/robotology/osqp-eigen
 git clone https://github.com/robotology/osqp-eigen
 cd osqp-eigen
 mkdir build
-cmake ..
+cd build
 cmake .. -DCMAKE_INSTALL_PREFIT=usr/local/osqp-eigen
 sudo make install
 source ~/.bashrc
@@ -71,6 +71,7 @@ official repository: https://github.com/coin-or/qpOASES
 git clone https://github.com/coin-or/qpOASES
 cd qpOASES
 mkdir build
+cd build
 cmake ..
 sudo make 
 sudo make install
