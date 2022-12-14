@@ -58,9 +58,9 @@ source ~/.bashrc
 Then modify the head files in `/usr/local/include/OsqpEigen`, make sure the osqp.h can be found. Modifing the file `Constraints.hpp`, `Data.hpp`, `Settings.hpp`, `Solver.hpp`, `Solver.tpp`, `SparseMatrixHelper.hpp`.
 
 ```
-#include <usr/local/include/osqp/osqp.h>
-#include <usr/local/include/osqp/auxil.h>
-#include <usr/local/include/osqp/scaling.h>
+#include </usr/local/include/osqp/osqp.h>
+#include </usr/local/include/osqp/auxil.h>
+#include </usr/local/include/osqp/scaling.h>
 ```
 
 # qpOASES Installation
