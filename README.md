@@ -32,7 +32,7 @@ then use
 official repository: https://github.com/osqp/osqp
 
 ```
-git clone https://github.com/osqp/osqp
+git clone --recursive https://github.com/oxfordcontrol/osqp
 cd osqp
 mkdir build
 cd build
