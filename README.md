@@ -35,7 +35,7 @@ official repository: https://github.com/osqp/osqp
 git clone https://github.com/osqp/osqp
 cd osqp
 mkdir build
-cmake ..
+cd build
 cmake .. -DCMAKE_INSTALL_PREFIT=usr/local/osqp
 sudo make install
 source ~/.bashrc
