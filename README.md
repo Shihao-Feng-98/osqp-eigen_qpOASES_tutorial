@@ -36,9 +36,9 @@ git clone --recursive https://github.com/oxfordcontrol/osqp
 cd osqp
 mkdir build
 cd build
-cmake .. -DCMAKE_INSTALL_PREFIT=usr/local/osqp
+cmake ..
+make -j16
 sudo make install
-source ~/.bashrc
 ```
 
 # Osqp-eigen Installation
@@ -50,9 +50,9 @@ git clone https://github.com/robotology/osqp-eigen
 cd osqp-eigen
 mkdir build
 cd build
-cmake .. -DCMAKE_INSTALL_PREFIT=usr/local/osqp-eigen
+cmake ..
+make -j16
 sudo make install
-source ~/.bashrc
 ```
 
 Then modify the head files in `/usr/local/include/OsqpEigen`, make sure the osqp.h can be found. Modifing the file `Constraints.hpp`, `Data.hpp`, `Settings.hpp`, `Solver.hpp`, `Solver.tpp`, `SparseMatrixHelper.hpp`.
@@ -73,7 +73,6 @@ cd qpOASES
 mkdir build
 cd build
 cmake ..
-sudo make 
+make -j16
 sudo make install
-source ~/.bashrc
 ```
